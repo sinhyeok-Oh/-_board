@@ -21,6 +21,10 @@ public class UserApi {
     // 현재 로그인한 사용자 자신의 정보 접근 용도 - userId를 path variable로 받지 않음
     public static final String ME = "/me";
 
+    public static final String PROFILE = "/profile";
+
+    public static final String PROFILE_IMAGE = "/profile/image";
+
     // 특정 유저의 비밀번호 변경/초기화 관련 엔드포인트
     // : {userId}/password
     // - 관리자가 사용자 비밀번호 초기화
